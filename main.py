@@ -8,7 +8,6 @@ import DetectChars
 import DetectPlates
 import PossiblePlate
 
-# module level variables ##########################################################################
 SCALAR_BLACK = (0.0, 0.0, 0.0)
 SCALAR_WHITE = (255.0, 255.0, 255.0)
 SCALAR_YELLOW = (0.0, 255.0, 255.0)
@@ -17,7 +16,6 @@ SCALAR_RED = (0.0, 0.0, 255.0)
 
 showSteps = False
 
-###################################################################################################
 
 
 def main():
@@ -174,6 +172,5 @@ def writeLicensePlateCharsOnImage(imgOriginalScene, licPlate):
 # end function
 
 
-###################################################################################################
 if __name__ == "__main__":
     main()
